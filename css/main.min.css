@@ -1846,7 +1846,8 @@ html {
         margin-left: 8.33333%;
     }
     .offset-xl-2 {
-        margin-left: 16.66667%;
+        margin-left: 20%;
+        margin-top: 60px;
     }
     .offset-xl-3 {
         margin-left: 25%;
@@ -3145,7 +3146,7 @@ strong {
 
 .main {
     position: relative;
-    height: 100vh;
+    height: 112vh;
 }
 
 .main video {
@@ -4079,7 +4080,7 @@ strong {
 .distrib {
     position: relative;
     background: #070023;
-    min-height: 570px;
+    min-height: 500px;
 }
 
 .distrib h3 {
@@ -4488,7 +4489,7 @@ strong {
 /* === partners == */
 
 .partners {
-    background: #050017;
+    background: #0c0123;
     position: relative;
 }
 
@@ -5401,7 +5402,7 @@ input::placeholder {
         right: 25px;
     }
     .partners {
-        background: transparent;
+        background: #070023;
     }
     .pre-footer svg {
         width: 16px;
