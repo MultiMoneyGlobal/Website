@@ -13,7 +13,7 @@
     <!-- SITE TITLE -->
     <title>MultiMoney.Global</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
     <!-- Animation CSS -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Latest Bootstrap min CSS -->
@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Color CSS -->
     <link id="layoutstyle" rel="stylesheet" href="assets/color/theme.css">
-    <meta property="og:image" content="./img/core-img/logo.png">
+    <meta property="og:image" content="../assets/img/logo/logo.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
@@ -93,14 +93,14 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
         <div id="banner_bg_effect" class="banner_effect"></div>
         <div class="container">
             <center>
-                <A href="../index.html"> <img id="logo_img" src="../img/logo.png"></A>
+                <A href="../index.html"> <img id="logo_img" src="../assets/img/logo/logo.png"></A>
             </center>
             <br>
             <center><button class="switch" id="addMainBSC" style="font-size: 12px;">Add BSC Mainnet</button></center>
             <br>
-            <div class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s" style="border-radius: 50px; box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -webkit-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -moz-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);">
+            <div class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s" style="border-radius: 50px; box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -webkit-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -moz-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);">
                 <p id="nometamask" class="err" style="display: none; color:white;">Please install Metamask first...</p>
                 <div class="network small">
                     <span id="curnet"><span class="err">PLEASE, CONNECT YOUR WALLET FIRST</span></span>: <span style="color: #ffe59a; overflow-wrap: break-word;" id="myAddr"></span>
@@ -190,12 +190,12 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
             </div>
             <br>
             <br>
-            <div style="border-radius: 50px; box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -webkit-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -moz-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);" class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            <div style="border-radius: 50px; box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -webkit-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -moz-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);" class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                 <div style="text-align: center">
                     <h2 style="color:white;">Sale contract</h2>
-                    <p style="color:white;">You can also buy tokens by sending BNB to this contract</p>
+                    <p style="color:white;">You can also buy tokens by sending BNB to this contract (gas limit min. 200000):</p>
                     <p id="pre_contract"><a href="https://bscscan.com/address/0x575cfce980133ceC709495522e367aA4Ab1FaB8B" style="border: 1px solid white; padding: 5px; background-color:white; color: black; overflow-wrap: break-word;" id="saleAddress"></a>
                         <button
                             class="btn btn-default animation" style="border-radius:none;" id="copySale">Copy address</button>
@@ -206,9 +206,9 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
             </div>
             <br>
             <br>
-            <div style="border-radius: 50px; box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -webkit-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px;
-            -moz-box-shadow: rgb(225 115 115 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);" class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            <div style="border-radius: 50px; box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -webkit-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px;
+            -moz-box-shadow: rgb(115 117 225 / 66%) 0px 0px 56px -20px; background-color: transparent; background:rgb(20 17 6 / 70%);" class="bg-white-tran radius_box token_sale_box_white text_white text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                 <div style="text-align: center;">
                     <h2 style="color:white;">Referral program</h2>
                     <p style="color:white;">Share your referral link and get paid instantly to your wallet for every referred token purchase.</p>
@@ -230,32 +230,28 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
 
     <a href="#" class="scrollup btn-default"><i class="ion-ios-arrow-up"></i></a>
     <!-- =========== -->
-    <!--LATEST JQUERY -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <!-- Latest compiled and minified Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- owl-carousel min js  -->
-    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
-    <!-- magnific-popup min js  -->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!-- waypoints min js  -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <!-- parallax js  -->
-    <script src="assets/js/parallax.js"></script>
-    <!-- countdown js  -->
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <!-- particles min js  -->
-    <script src="assets/js/particles.min.js"></script>
-    <!-- scripts js -->
-    <script src="assets/js/jquery.dd.min.js"></script>
-    <!-- jquery.counterup.min js -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- scripts js -->
-    <script src="assets/js/scripts.js"></script>
+      <!--LATEST JQUERY -->
+      <script src="assets/js/jquery-3.6.0.min.js"></script>
+      <!-- Latest compiled and minified Bootstrap --> 
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+      <!-- owl-carousel min js  --> 
+      <script src="assets/owlcarousel/js/owl.carousel.min.js"></script> 
+      <!-- magnific-popup min js  --> 
+      <script src="assets/js/magnific-popup.min.js"></script> 
+      <!-- waypoints min js  --> 
+      <script src="assets/js/waypoints.min.js"></script> 
+      <!-- parallax js  --> 
+      <script src="assets/js/parallax.js"></script> 
+      <!-- countdown js  --> 
+      <script src="assets/js/jquery.countdown.min.js"></script> 
+      <!-- particles min js  --> 
+      <script src="assets/js/particles.min.js"></script> 
+      <!-- scripts js --> 
+      <script src="assets/js/jquery.dd.min.js"></script> 
+      <!-- jquery.counterup.min js --> 
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- scripts js --> 
+      <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>

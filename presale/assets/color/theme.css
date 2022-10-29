@@ -93,8 +93,8 @@ header a:hover,
 }
 
 .btn-default {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 .btn-default.active.focus,
@@ -108,8 +108,8 @@ header a:hover,
 .btn-default:focus,
 .btn.active:not(:disabled):not(.disabled),
 .btn:active:not(:disabled):not(.disabled) {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 .btn-border,
@@ -126,8 +126,8 @@ header a:hover,
 .doc_dropdown>a,
 .doc_dropdown>a:hover,
 .doc_dropdown .dropdown-menu {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 button,
@@ -135,18 +135,18 @@ button,
 .team_pop .progress-bar,
 .tk_counter_inner .progress-bar.gradient,
 .faq_content4 .card-header a::after {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 .gradient_box {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 .team_social_s2 {
-    background-image: -webkit-linear-gradient(to right, #d32326 0%, #6e0000 99%);
-    background-image: linear-gradient(to right, #d32326 0%, #6e0000 99%);
+    background-image: -webkit-linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
+    background-image: linear-gradient(to right, #4523d3 0%, #7a43d6 99%);
 }
 
 .dl_lan li a {

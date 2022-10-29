@@ -432,17 +432,17 @@ button:focus {
 
 .section_gradiant {
     background: -webkit-linear-gradient(to bottom, #040f29 0%, rgba(5, 45, 133, 1) 100%);
-    background-image: linear-gradient(to bottom, #440001 0%, #240000 100%)
+    background-image: linear-gradient(to bottom, #0c0034 0%, #000424 100%)
 }
 
 .section_gradiant2 {
     background-image: -webkit-linear-gradient(left, #6000b5 0%, #3e2a9c 99%);
-    background-image: linear-gradient(to bottom, #440001 0%, #240000 100%)
+    background-image: linear-gradient(to bottom, #0c0034 0%, #000424 100%)
 }
 
 .section_gradiant3 {
     background-image: -webkit-linear-gradient(left, #193f88 0%, #040f29 99%);
-    background-image: linear-gradient(to bottom, #440001 0%, #240000 100%)
+    background-image: linear-gradient(to bottom, #0c0034 0%, #000424 100%)
 }
 
 .v_blue,
@@ -3531,13 +3531,13 @@ header a:hover,
 }
 
 .v_blue .tk_countdown {
-    background-color: #260004;
+    background-color: #000016;
     background-position: center center;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .v_blue .tk_countdown_time {
-    background-color: #052d85;
+    background-color: #000016;
 }
 
 .v_dark .tk_countdown {

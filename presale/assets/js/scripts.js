@@ -126,7 +126,7 @@
 						"value": "#ffffff"
 					},
 					"shape": {
-						"type": "images",
+						"type": "shape",
 						"stroke": {
 							"width": 0,
 							"color": "#ffffff"
@@ -135,9 +135,9 @@
 							"nb_sides": 5
 						},
 						"image": {
-							"src": "assets/images/favicon.png",
-							"width": 50,
-							"height": 50
+							"src": "#",
+							"width": 200,
+							"height": 200
 						}
 					},
 					"opacity": {
@@ -369,10 +369,10 @@
 	
 	/*===================================*
 	 09. VIDEO JS
-	*===================================
+	*===================================*/
 	$('.video').magnificPopup({
 		type: 'iframe'
-	});*/
+	});
 
 	/*===================================*
 	10. CONTACT FORM JS
@@ -428,12 +428,12 @@
 	
 	/*===================================*
 	12. POPUP JS
-	*===================================
+	*===================================*/
 	$('.content-popup').magnificPopup({
 		type: 'inline',
 		preloader: true,
 		mainClass: 'mfp-zoom'
-	});*/
+	});
 	
 	/*===================================*
 	13. ANIMATION JS
