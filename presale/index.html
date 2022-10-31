@@ -198,7 +198,7 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
                     <p style="color:white;">You can also buy tokens by sending BNB to this contract (gas limit min. 200000):</p>
                     <p id="pre_contract"><a href="https://bscscan.com/address/0x575cfce980133ceC709495522e367aA4Ab1FaB8B" style="border: 1px solid white; padding: 5px; background-color:white; color: black; overflow-wrap: break-word;" id="saleAddress"></a>
                         <button
-                            class="btn btn-default animation" style="border-radius:none;" id="copySale">Copy address</button>
+                            class="btn btn-default animation" style="border-radius:none;" onclick="alert('Address Copied')" id="copySale">Copy address</button>
                     </p>
                     <div style="text-align: center" id="saleqr"></div>
                     <span>Scan the QR code via Metamask/Trustwallet etc.</span>
@@ -216,7 +216,7 @@ var contractAddressToken = '0x44C4eDDef663fC65E93987A153c31314cC4C9eb1';
                     <p style="color:white;">Referral commission: <span id="refPercent">5</span>%</p>
                     <p style="color:white;">Your referral earnings: <span id="refMy">0</span> BNB</p>
                     <p style="color:white;">Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</p>
-                    <p><input style="width: 50%; padding:5px" type="text" id="referLink" size="50%" readonly="true"><button class="btn btn-default animation" id="copyreflink" style="border-radius:none;">Copy link</button></p>
+                    <p><input style="width: 50%; padding:5px" type="text" id="referLink" size="50%" readonly="true"><button onclick="alert('Copied')" class="btn btn-default animation" id="copyreflink" style="border-radius:none;">Copy link</button></p>
                 </div>
             </div>
         </div>
